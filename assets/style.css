@@ -1,0 +1,306 @@
+* {
+	margin:0;
+	padding:0;
+
+}
+
+header {
+	position: relative;
+	z-index: 3;
+	width: 960px;
+	border-bottom: 1px #cccccc solid;
+	background: #ffffff;
+	margin:0;
+	padding: 0;
+}
+header::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+footer::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.name {
+	z-index: 3;
+	width: 175px;
+	float: left;
+	color: white;
+	background-color: #4aaaa5;
+	padding: 30px 20px 10px 20px;
+	height: 50px;
+	margin-left: 25px;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	z-index: 3;
+	clear: both;
+	width: 930px;
+	margin: 0;
+	padding:30px 0 30px 30px;
+	bottom: 0;
+	border-top: 10px #4aaaa5 solid; 
+	background: #666666;
+	color: white;
+	text-align: center;
+	font-size: .75em;
+
+
+}
+nav {
+	z-index: 2;
+	float:right;
+	margin-right: 100px;
+}
+
+nav ul {	
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+a:link {
+	text-align: center;
+	text-decoration: none;
+	color: #777777;
+
+
+}
+#connectBorder {
+	z-index: 3;
+	
+	border-bottom: 2px #dddddd solid;
+	
+	padding-bottom:20px;
+	margin-bottom: 20px;
+	
+}
+
+nav li {	
+	z-index: 3;
+	margin-top: 30px;
+	margin-right: 10px;
+	display: inline-block;
+	padding-top: 5px;
+	
+	
+}
+a {
+	padding-right: 10px;
+	border-right: 1px #dddddd solid;
+
+}
+.container { 
+	overflow: hidden;
+	clear: both;
+	height: auto;
+	z-index: 3;
+	margin:0;
+	
+	
+	
+	/*background-color: #FF00FF;*/
+
+
+}
+.background {
+	position: absolute;
+	z-index: 2;
+	background-size: cover;
+	overflow: hidden;
+	height: 960px;
+	width: 960px;
+}
+.aboutBox {
+	display: inline-block;
+	position: relative;
+	z-index: 3;
+	float: left;
+	background-color: #ffffff;
+	border:1px #dddddd solid;
+	max-width:500px;
+	padding: 30px;
+	margin: 50px 0 0 50px;
+
+}
+.aboutText {
+	color: #1DB6AC;
+	z-index: 3;
+	padding-bottom:20px;
+	margin-bottom: 20px;
+	border-bottom: 2px #dddddd solid;
+
+
+}
+
+.pic {
+	
+	float: left;
+	padding-right: 15px;
+}
+
+
+
+
+.connect {
+	overflow:hidden;
+	display: inline-block;
+	position: absolute;
+	float: left;
+	z-index: 3;
+	background-color: #ffffff;
+	color: #1DB6AC;
+	max-width: 190px;
+	padding: 30px;
+	margin: 50px 50px 0 25px;
+	border:1px #dddddd solid;
+}
+
+.SM {
+	z-index: 3;
+	width:60px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+body{
+	/*max-width: 960px;*/
+	margin:0;
+	padding:0;
+}
+
+
+p {
+	line-height: 1.5em;
+	color: #777777;
+}
+
+h1 h2 h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+/**/
+.portPics {
+	position: relative;
+	
+	z-index: 3;
+	width: 237.5px;
+	display: inline-block;
+	height: 150px;
+	/*margin: 0 12.5px 25px 0px;*/
+	float: left;
+	
+}
+.image {
+	position: relative;
+	z-index: 3;
+	width: 237.5px;
+	display: inline-block;
+	height: 150px;
+	margin: 0 12.5px 25px 0px;
+	float: left;
+
+}
+.image2 {
+	position: relative;
+	
+	z-index: 3;
+	width: 237.5px;
+	display: inline-block;
+	height: 150px;
+	margin:0 0 25px 12.5px;
+	float: right;
+
+}
+
+.picText {
+	position: absolute;
+    
+	color: white;
+	background-color: #4aaaa5;
+	z-index: 4;
+	width: 237.5px;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 25;
+	margin-top: 90px;
+	
+	float: left;
+}
+.picText2 {
+	position: absolute;
+	color: white;
+	background-color: #4aaaa5;
+	z-index: 4;
+	width: 237.5px;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 25;
+	margin-top: 90px;
+	
+	
+	float: right;
+}
+
+
+
+
+.portPics2 {
+	position: relative;
+	
+	z-index: 3;
+	display: inline-block;
+	width: 237.5px;
+	height: 150px;
+	
+	float: right;
+
+
+	
+
+}
+#message, #email, #name {
+	width: 500px;
+}
+#message {
+	height: 300px;
+	border-color: #dddddd;
+}
+#email, #name {
+	height: 30px;
+}
+form {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #777777;
+
+
+}
+#submit_button {
+	border: none;
+	
+	cursor: pointer;
+	color: white;
+	background-color: #4aaaa5;
+	padding: 5px 7px;
+	font-size: 1.1em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+input {
+	font-size: .7em;
+	padding-left: 5px;
+	
+
+
+
+}
+
+
+

@@ -1,9 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Jaron Gallo's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
+		<img class="background" src="image/backgroundwhite.png" alt="Cool White Background">
+			<header>
+				<h1 class="name">Jaron Gallo</h1>
+					<nav>
+						<ul>
+							<li><a href="index.html">About</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+			</header>
+		<div class="container">
+			<section class="aboutBox">
+			<h2 class="aboutText">Contact Me</h2>
+			
+					<form id="contactForm" action="#" method="POST" enctype="multipart/form-data">
+						<div class="row">
+							<label for="name">Name</label><br />
+							<input id="name" class="input" name="name" type="text" value="" size="30" placeholder="John Smith" /><br />
+						</div>
+						<div class="row">
+							<label for="email">Email</label><br />
+							<input id="email" class="input" name="email" type="text" value="" size="30" placeholder="example@gmail.com" /><br />
+						</div>
+						<div class="row">
+							<label for="message">Message</label><br />
+							<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+						</div>
+						<input id="submit_button" type="submit" value="Submit" />
+					</form>	
 
+				
+					
+			
+			</section>	
+			
+			<aside class="connect">
+				<h2 id="connectBorder">Connect with Me</h2>
+					<div>
+						
+						<img class="SM" src="image/github.png" alt="GitHub Icon" >
+						<img class="SM" src="image/linkedin.png" alt="LinkedIn Icon">
+						<img class="SM" src="image/stack.png" alt="StackOverflow Icon">
+					</div>
+			</aside>
+		</div>
+	<footer>@Copyright 2017 Jaron Gallo</footer>
 </body>
 </html>
