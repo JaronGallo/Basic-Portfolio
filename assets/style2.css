@@ -5,22 +5,17 @@
 }
 
 h1 {
-	font-size: 2em;
-	font-weight: bold;
-}
-
-h2 {
 	font-size: 1.5em;
-	font-weight: bold;
 }
 header {
 	position: relative;
 	z-index: 3;
-	width: 960px;
+	width: 100%;
+	margin: 0;
 	border-bottom: 1px #cccccc solid;
 	background: #ffffff;
-	margin:0;
-	padding: 0;
+	
+	clear: both;
 }
 header::after {
 	content: "";
@@ -48,7 +43,7 @@ footer {
 	position: fixed;
 	z-index: 3;
 	clear: both;
-	width: 930px;
+	width: 100%;
 	margin: 0;
 	padding:30px 0 30px 30px;
 	bottom: 0;
@@ -64,6 +59,7 @@ nav {
 	z-index: 2;
 	float:right;
 	margin-right: 100px;
+
 }
 
 nav ul {	
@@ -103,11 +99,14 @@ nav li {
 
 }
 .container { 
-	overflow: hidden;
+
 	clear: both;
-	height: auto;
+	
 	z-index: 3;
 	margin:0;
+	width: 100%;
+	max-width: 960px;
+
 	
 	
 	
@@ -119,9 +118,10 @@ nav li {
 	position: absolute;
 	z-index: 2;
 	background-size: cover;
-	overflow: hidden;
-	height: 960px;
-	width: 960px;
+	max-width: 100%;
+	height: 100%;
+	
+	
 }
 .aboutBox {
 	display: inline-block;
@@ -130,6 +130,7 @@ nav li {
 	float: left;
 	background-color: #ffffff;
 	border:1px #dddddd solid;
+	width: 100%;
 	max-width:500px;
 	padding: 30px;
 	margin: 50px 0 0 50px;
@@ -162,6 +163,7 @@ nav li {
 	z-index: 3;
 	background-color: #ffffff;
 	color: #1DB6AC;
+	width: 100%;
 	max-width: 190px;
 	padding: 30px;
 	margin: 50px 50px 0 25px;
@@ -315,6 +317,9 @@ input {
 
 
 }
-
+body {
+	width: 100%;
+	
+}
 
 
